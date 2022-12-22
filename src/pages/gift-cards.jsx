@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Navigation from "../ui/Navigation";
 import MealPlansSubscriptions from "../ui/MealPlansSubscription";
 import SiteMap from "../ui/SiteMap";
@@ -75,7 +76,7 @@ function GiftCardHero(){
                     <button className="w-fit text-blue-500 px-4 py-2 bg-white font-semibold border border-solid border-blue-500 hover:bg-blue-900">Redeem Gift Card</button>
                 </div>
                 <div className="w-1/2">
-                    <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/62683001aedd80475a0b4dfb_Gifts_Img_1%20(1).jpg" />
+                    <Image src="https://assets-global.website-files.com/5d03b4e130118314af624b20/62683001aedd80475a0b4dfb_Gifts_Img_1%20(1).jpg" alt="" />
                 </div>
             </div>
         </div>

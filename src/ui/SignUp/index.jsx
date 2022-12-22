@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function SignUp(){
     const inputStyling = "border-solid border-2 rounded-md p-2"
     const inputStyling2 = "border-solid border-2 rounded-md p-2 w-1/4"
@@ -9,14 +11,14 @@ export default function SignUp(){
         <div className="bg-heroBackground p-12">
             <div className="bg-slate-100 flex flex-col gap-2 p-10 m-auto w-fit">
                 <div>Logo Holder</div>
-                <h1 className="text-4xl font-bold pb-3">Dinner's ready!</h1>
+                <h1 className="text-4xl font-bold pb-3">{"Dinner's ready!"}</h1>
                 <h2 className="text-xl font-bold pb-3">Chef-prepared, healthy meals delivered weekly </h2>
                 <form className={formStyling}>
                     <input className={inputStyling} placeholder="Email" />
                     <input className={inputStyling2} placeholder="Zip" />
                     <button className={buttonStyling}>Continue</button>
                 </form>
-                <p className={textStyling}>Already have an account? <a href='/'>Log in</a></p>
+                <p className={textStyling}>Already have an account? <Link href='/'>Log in</Link></p>
                 <p className={textStyling}>By continuing, you agree to our <a>Terms</a> and <a>Privacy Policy</a> & will receive emails from Freshly.</p>
             </div>
         </div>

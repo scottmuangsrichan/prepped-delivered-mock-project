@@ -20,7 +20,7 @@ export default function Login(){
                 </form>
                 <div className="flex justify-between text-sm">
                     <a className="underline underline-offset-2 text-blue-500">Forgot Password?</a>
-                    <p>Don't have an account? <a className="underline underline-offset-2 text-blue-500">Get Started</a></p>
+                    <p>{"Don't have an account?"}<a className="underline underline-offset-2 text-blue-500">Get Started</a></p>
                 </div>
             </div>
         </div>
