@@ -5,6 +5,7 @@ import OnTheMenu from "../ui/OnTheMenu";
 import CommonQuestions from "../ui/CommonQuestions";
 import Menu from "../ui/Menu";
 import VisitPage from "../ui/VisitPage";
+import Image from "next/image";
 
 export default function PlansAndMenuPage(){
     return(
@@ -29,7 +30,7 @@ export default function PlansAndMenuPage(){
 
 function EveryLifestyleDiet(){
     return (
-        <div className="w-1440 py-12 m-auto w-min flex flex-col justify-center items-center">
+        <div className="w-1440 py-12 m-auto flex flex-col justify-center items-center">
             <div className="pb-8 w-1/2">
                 <h1 className="text-5xl font-bold text-center pb-10">For Every Diet & Lifestyle</h1>
                 <p className="m-auto text-center text-sm">
@@ -69,12 +70,13 @@ function EveryLifestyleDiet(){
     )
 }
 
-function EveryLifestyleDietCard({img , title , description}){
+function EveryLifestyleDietCard({img , title , description, alt}){
     const _img = img;
+    const _alt = alt;
     return (
         <div className="m-auto">
             <div className="flex flex-col justify-items items-center m-auto">
-                <img className="w-1/2" src={_img} />
+                <Image className="w-1/2" src={_img} alt={_alt} layout="fill" />
                 <h6>{title}</h6>
                 <p>{description}</p>
                 <a className="py-3 underline underline-offset-2 text-blue-500">Learn More</a>
