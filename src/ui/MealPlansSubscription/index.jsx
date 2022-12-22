@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function MealPlansSubscriptions() {
     return (
       <div className='bg-freshly-white pb-10'>
@@ -5,7 +7,7 @@ export default function MealPlansSubscriptions() {
           <div className='text-center p-12'>logo</div>
           <h1 className='text-center text-4xl font-bold pb-5'>Flexible plans that fit your life</h1>
           <p className='pb-10 w-1/2 m-auto text-center'>We offer anywhere from 4 - 12 meals per week, with meals as low 
-            as <b>$9.58 each. The bigger your box, the more you'll save</b> 
+            as <b>{"$9.58 each. The bigger your box, the more you'll save"}</b> 
             - and you can always pause or change your plan at any time.
           </p>
           <div className='flex justify-center align-center gap-10 p-4'>
@@ -41,9 +43,11 @@ export default function MealPlansSubscriptions() {
     const _img = img;
     return (
       <div className='flex flex-col justify-center align-center'>
-        <img 
+        <Image
           className='m-auto rounded-md'
-          src={_img}></img>
+          src={_img}
+          alt=""
+          />
         <h3 className='text-gray-500 m-auto pt-3 text-xl font-semibold'>{numberOfMeals} Meals</h3>
       </div>
     )
