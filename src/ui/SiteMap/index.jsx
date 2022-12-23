@@ -1,7 +1,7 @@
 export default function SiteMap(){
     return (
-      <footer className='bg-slate-100 p-20 border-t-2 border-solid'>
-        <div className='m-auto w-1440 flex justify-evenly items-top px-20'>
+      <footer className='bg-slate-100 p-20 border-t-2 border-solid max-w-[1440px]'>
+        <div className='m-auto w-[1200px] flex justify-evenly items-top px-20'>
           <div>
             <h1 className='pb-4 font-semibold'>logo</h1>
             <p>Logo Copyright</p>

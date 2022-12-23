@@ -1,7 +1,7 @@
 export default function HomeHero(){
     return (
-      <div className='flex flex-row-reverse'>
-        <div className='bg-teal-300 h-100 py-14 px-14'>
+      <div className="border border-solid-3">
+        <div>
           <h1 className='text-5xl font-bold pb-10'>Balanced meals for busy lives.</h1>
           <button className='font-weight-500 text-blue-500 px-4 py-2 bg-white border-solid border-blue-500 border-2 hover:bg-blue-900'>Explore Meals</button> 
           <p className='pt-10 pb-5 text-lg font-bold'>See meals available in your area!</p>

@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function Navigation() {
     return (
-      <div className='bg-white w-100 sticky top-0 z-10'> 
-        <nav className='flex justify-between px-10 py-6 items-center font-medium w-1440 m-auto'>
+      <div className='bg-white sticky top-0 z-10'> 
+        <nav className='flex justify-between px-10 py-6 items-center font-medium'>
           <div>
             <Link href="/">Modern Phase</Link>
           </div>
