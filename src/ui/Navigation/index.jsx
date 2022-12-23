@@ -9,11 +9,17 @@ export default function Navigation() {
           </div>
           <div className='m-auto px-1'>
             <ul className='flex gap-6 text-base justify-center items-center'>
-              <li><Link href="/plans-and-menu" className='text-sm hover:text-blue-500 font-semibold '>Plans & Menu</Link></li>
-              <li><Link href="/why-mealprep"className='text-sm hover:text-blue-500 font-semibold'>How it Works</Link></li>
-              <li><Link href="/gift-cards" className='text-sm hover:text-blue-500 font-semibold'>Gifts</Link></li>
-              <li><Link href="/" className='text-sm hover:text-blue-500 font-semibold'>Refer A Friend</Link></li>
-              <li><Link href="/" className='text-sm hover:text-blue-500 font-semibold'>Help</Link></li>
+              <li>
+                <Link href="/plans-and-menu">
+                  <a className='text-sm hover:text-blue-500 font-semibold'>
+                    Plans & Menu
+                  </a>
+                </Link>
+              </li>
+              <li><Link href="/why-mealprep"><a className='text-sm hover:text-blue-500 font-semibold'>How it Works</a></Link></li>
+              <li><Link href="/gift-cards"><a className='text-sm hover:text-blue-500 font-semibold'>Gifts</a></Link></li>
+              <li><Link href="/"><a className='text-sm hover:text-blue-500 font-semibold'>Refer A Friend</a></Link></li>
+              <li><Link href="/"><a className='text-sm hover:text-blue-500 font-semibold'>Help</a></Link></li>
             </ul>
           </div>
           <div className='flex items-center justify-center gap-3'>

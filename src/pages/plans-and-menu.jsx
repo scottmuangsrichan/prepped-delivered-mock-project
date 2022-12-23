@@ -5,7 +5,7 @@ import OnTheMenu from "../ui/OnTheMenu";
 import CommonQuestions from "../ui/CommonQuestions";
 import Menu from "../ui/Menu";
 import VisitPage from "../ui/VisitPage";
-import Image from "next/image";
+import EveryLifestyleDietCard from "../ui/EveryLifestyleDietCard";
 
 export default function PlansAndMenuPage(){
     return(
@@ -30,16 +30,18 @@ export default function PlansAndMenuPage(){
 
 function EveryLifestyleDiet(){
     return (
-        <div className="w-1440 py-12 m-auto flex flex-col justify-center items-center">
-            <div className="pb-8 w-1/2">
-                <h1 className="text-5xl font-bold text-center pb-10">For Every Diet & Lifestyle</h1>
-                <p className="m-auto text-center text-sm">
-                    We’re here to make every dish delicious and nutritious, 
-                    with prepared meals that satisfy a wide range of tastes—all meticulously 
-                    crafted to meet your dietary wants and needs.
-                </p>
+        <div className="max-w-[1440px] w-[1200px] m-auto py-12">
+            <div className="pb-8">
+                <div className="w-3/4 m-auto">
+                    <h1 className="text-5xl font-bold text-center pb-10">For Every Diet & Lifestyle</h1>
+                    <p className="m-auto text-center text-sm">
+                        We’re here to make every dish delicious and nutritious, 
+                        with prepared meals that satisfy a wide range of tastes—all meticulously 
+                        crafted to meet your dietary wants and needs.
+                    </p>
+                </div>
             </div>
-            <div className="flex w-1440 m-auto text-center">
+            <div className="flex m-auto text-center">
                 <EveryLifestyleDietCard 
                     img = "https://assets-global.website-files.com/5d03b4e130118314af624b20/620001104582091be7236479_Freshly_Iconography_DietaryIcons-03-p-500.png"
                     title="Purely Plant"
@@ -70,21 +72,5 @@ function EveryLifestyleDiet(){
     )
 }
 
-function EveryLifestyleDietCard({img , title , description, alt}){
-    const _img = img;
-    const _alt = alt;
-    return (
-        <div className="m-auto">
-            <div className="flex flex-col justify-items items-center m-auto">
-                <div className="w-1/2">
-                    <Image src={_img} alt="" layout="fill" />
-                </div>
-                <h6>{title}</h6>
-                <p>{description}</p>
-                <a className="py-3 underline underline-offset-2 text-blue-500">Learn More</a>
-            </div>
-        </div>
-    )
-}
 
 

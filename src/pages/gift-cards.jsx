@@ -24,7 +24,7 @@ export default function GiftCardsPage(){
 
 export function GCHowItWorks(){
     return (
-        <div className="w-1440 m-auto">
+        <div className="max-w-[1440px] w-[1200px] m-auto">
             <div className="flex flex-col items-center justify-center text-center p-20 gap-3">
                 <div>
                     <h1 className='font-bold text-5xl pb-3'>Give The Greatest Gift Ever</h1>
