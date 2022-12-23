@@ -7,10 +7,10 @@ export default function Reviews(){
    
   
     return (
-      <div className='max-w-[1440px] m-auto bg-freshly-white'>
-        <div className='py-12 bg-freshly-white h-full m-auto w-[1200px]'>
-          <h1 className='text-center text-5xl font-bold px-4 py-12'>What Others Are Saying</h1>
-          <div className='flex justify-evenly py-6 items-center px-14'>
+      <div className='max-w-[1440px] bg-freshly-white'>
+        <div className='py-12 bg-freshly-white w-[1200px] m-auto'>
+          <h1 className='text-center text-5xl font-bold py-12'>What Others Are Saying</h1>
+          <div className='flex justify-evenly py-6 items-center'>
             <div className='text-4xl px-2 text-blue-500'>
               <BsArrowLeftCircle />
             </div>

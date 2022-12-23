@@ -44,10 +44,11 @@ export default function MealPlansSubscriptions() {
     return (
       <div className='flex flex-col justify-center align-center'>
         <Image
-          className='m-auto rounded-md'
           src={_img}
           alt=""
-          layout="fill"
+          layout="responsive"
+          height={100}
+          width={100}
           />
         <h3 className='text-gray-500 m-auto pt-3 text-xl font-semibold'>{numberOfMeals} Meals</h3>
       </div>
