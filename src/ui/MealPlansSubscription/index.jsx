@@ -47,6 +47,7 @@ export default function MealPlansSubscriptions() {
           className='m-auto rounded-md'
           src={_img}
           alt=""
+          layout="fill"
           />
         <h3 className='text-gray-500 m-auto pt-3 text-xl font-semibold'>{numberOfMeals} Meals</h3>
       </div>

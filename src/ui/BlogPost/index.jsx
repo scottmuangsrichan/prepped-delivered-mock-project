@@ -4,7 +4,7 @@ export default function BlogPost({img , title , previewText , link}){
     const _img = img;
     return (
         <div className="flex gap-10 items-center">
-            <Image className="w-3/4" src={_img} alt=""/>
+            <Image className="w-3/4" src={_img} alt="" layout="fill"/>
             <div className="flex flex-col gap-2">
                 <h1 className="font-bold text-3xl">{title}</h1>
                 <p className="pb-4">{previewText}</p>

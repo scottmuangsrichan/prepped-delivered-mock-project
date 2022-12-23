@@ -6,7 +6,6 @@ import Reviews from '../ui/Reviews/index.jsx';
 import SiteMap from '../ui/SiteMap/index.jsx';
 import MealPlansSubscriptions from '../ui/MealPlansSubscription/index.jsx';
 import ExploreMeals from '../ui/ExploreMeals/index.jsx';
-import MenuItemCard from '../ui/MenuItem/index.jsx';
 import Link from 'next/link.js';
 import Image from 'next/image.js';
 
@@ -30,26 +29,6 @@ export default function Home() {
   )
 }
 
-
-
-
-
-function ChatBotIcon({}){
-  return (
-    <div className='bg-black w-12 h-12 rounded-full sticky right-100'>
-    </div>
-  )
-}
-
-
-function SaveUpTo({saveAmount}){
-  return (
-    <div className='bg-yellow-300 rounded-xl w-fit'>
-      <p className='font-bold px-4 py-1 text-blue-500'>Save up to ${saveAmount}</p>
-    </div>
-  )
-}
-
 function LearnMore(){
   return (
     <div className='w-1440 m-auto flex flex-row justify-between p-16 items-center'>
@@ -57,12 +36,17 @@ function LearnMore(){
         <h1 className='font-bold text-4xl'>We believe eating right should be easy for everyone.</h1>
         <p>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.
         </p>
-        <button className='w-1/3 bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Learn More</button> 
+        <div>
+          <button className='w-1/3 bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Learn More</button> 
+        </div>
       </div>
       <div className='flex h-1/2'>
         <Image
           className='w-screen h-128'
-          src='https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80' alt=""/>
+          src='https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80' 
+          alt=""
+          layout='fill'
+          />
       </div>
     </div>
   )
@@ -89,7 +73,9 @@ function GetStarted(){
           className='border-solid border-2 rounded-md p-2'
           placeholder='zip'></input>
       </form>
-      <button className='w-1/2 bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Get Started</button>
+      <div>
+        <button className='w-1/2 bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Get Started</button>
+      </div>
       <p className='pt-8 text-sm'>Already have an account? <Link className='text-blue-700 underline underline-offset-2' href='/login'/>Log in.</p>
       <p className='text-sm'>By continuing, you agree to our <a className='text-slate-300 hover:text-blue-700 underline underline-offset-2'>Terms</a> and <a className='text-slate-300 hover:text-blue-700 underline underline-offset-2'>Privacy Policy</a> & will receive emails from Freshly.</p>
     </div>

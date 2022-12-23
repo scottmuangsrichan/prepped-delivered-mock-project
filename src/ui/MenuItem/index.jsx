@@ -7,6 +7,7 @@ export default function MenuItemCard({title , description, img }){
           className='m-auto rounded-md w-1/2'
           src={_img} 
           alt=""
+          layout="fill"
           />
           <div className="pt-4 text-center">
             <h1>{title}</h1>
