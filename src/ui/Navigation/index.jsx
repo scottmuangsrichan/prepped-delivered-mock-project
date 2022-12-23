@@ -12,13 +12,17 @@ export default function Navigation() {
               <li><Link href="/plans-and-menu" className='text-sm hover:text-blue-500 font-semibold '>Plans & Menu</Link></li>
               <li><Link href="/why-mealprep"className='text-sm hover:text-blue-500 font-semibold'>How it Works</Link></li>
               <li><Link href="/gift-cards" className='text-sm hover:text-blue-500 font-semibold'>Gifts</Link></li>
-              <li><Link href="" className='text-sm hover:text-blue-500 font-semibold'>Refer A Friend</Link></li>
-              <li><Link href="" className='text-sm hover:text-blue-500 font-semibold'>Help</Link></li>
+              <li><Link href="/" className='text-sm hover:text-blue-500 font-semibold'>Refer A Friend</Link></li>
+              <li><Link href="/" className='text-sm hover:text-blue-500 font-semibold'>Help</Link></li>
             </ul>
           </div>
           <div className='flex items-center justify-center gap-3'>
-            <Link href="/login" className='text-sm hover:text-blue-500 font-semibold'>Login</Link>
-            <button className='text-sm w-100 bg-blue-500 px-4 py-2 text-white hover:bg-blue-900 font-semibold'><Link href="/join-now">Sign Up</Link></button>
+            <Link href="/login" className='text-sm hover:text-blue-500 font-semibold'>
+              <a>Login</a>
+            </Link>
+            <div>
+              <button className='text-sm w-100 bg-blue-500 px-4 py-2 text-white hover:bg-blue-900 font-semibold'><Link href="/join-now">Sign Up</Link></button>
+            </div>
           </div>
         </nav>
       </div>

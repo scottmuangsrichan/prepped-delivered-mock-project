@@ -76,7 +76,9 @@ function EveryLifestyleDietCard({img , title , description, alt}){
     return (
         <div className="m-auto">
             <div className="flex flex-col justify-items items-center m-auto">
-                <Image className="w-1/2" src={_img} alt="" layout="fill" />
+                <div className="w-1/2">
+                    <Image src={_img} alt="" layout="fill" />
+                </div>
                 <h6>{title}</h6>
                 <p>{description}</p>
                 <a className="py-3 underline underline-offset-2 text-blue-500">Learn More</a>

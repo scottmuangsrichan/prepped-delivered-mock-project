@@ -13,7 +13,7 @@ export default function GiftCardsPage(){
                 <title>Enjoy the Gift of Effortless Meals</title>
             </Head>
             <Navigation />
-            <GiftCardHero />
+            {/* <GiftCardHero /> */}
             <GCHowItWorks />
             <MealPlansSubscriptions />
             <CommonQuestions />
@@ -66,24 +66,24 @@ export function GCHowItWorks(){
     )
 }
 
-function GiftCardHero(){
-    return (
-        <div className="m-auto w-1440">
-            <div className="flex items-center justify-center m-auto">
-                <div className="flex flex-col gap-3 items-left my-auto bg-white w-1/2">
-                    <h1 className="font-bold text-5xl pb-3">Enjoy the Gift of <br /> Effortless Meals</h1>
-                    <button className="w-fit bg-blue-500 px-4 py-2 text-white font-semibold hover:bg-blue-900">Buy Gift Card</button>
-                    <button className="w-fit text-blue-500 px-4 py-2 bg-white font-semibold border border-solid border-blue-500 hover:bg-blue-900">Redeem Gift Card</button>
-                </div>
-                <div className="w-1/2">
-                    <Image 
-                        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/62683001aedd80475a0b4dfb_Gifts_Img_1%20(1).jpg" 
-                        alt="" 
-                        layout="fill"
-                        />
-                </div>
-            </div>
-        </div>
-    )
-}
+// function GiftCardHero(){
+//     return (
+//         // <div className="m-auto w-1440">
+//         //     <div className="flex items-center justify-center m-auto">
+//         //         <div className="flex flex-col gap-3 items-left my-auto bg-white w-1/2">
+//         //             <h1 className="font-bold text-5xl pb-3">Enjoy the Gift of <br /> Effortless Meals</h1>
+//         //             <button className="w-fit bg-blue-500 px-4 py-2 text-white font-semibold hover:bg-blue-900">Buy Gift Card</button>
+//         //             <button className="w-fit text-blue-500 px-4 py-2 bg-white font-semibold border border-solid border-blue-500 hover:bg-blue-900">Redeem Gift Card</button>
+//         //         </div>
+//         //         <div className="w-1/2">
+//         //             {/* <Image 
+//         //                 src="https://assets-global.website-files.com/5d03b4e130118314af624b20/62683001aedd80475a0b4dfb_Gifts_Img_1%20(1).jpg" 
+//         //                 alt="" 
+//         //                 layout="fill"
+//         //                 /> */}
+//         //         </div>
+//         //     </div>
+//         // </div>
+//     )
+// }
 
