@@ -1,18 +1,12 @@
-import Image from "next/image";
-export default function HomeHero({image}){
-  const _image = image;  
+export default function HomeHero(){  
   return (
-      <div className="max-w-[1440px] flex flex-row items-top justify-between">
-        <div className="w-1/2">
-          <Image 
-            src={_image}
-            alt=""
-            layout="responsive"
-            width={100}
-            height={100}
-          />
+      <div className="flex flex-row justify-between bg-heroBackground bg-cover">
+        <div className="top-52">
+          <p className="text-white text-3xl">
+            Delivered fresh to your door.
+          </p>
         </div>
-        <div>
+        <div className="bg-yellow-400 p-12 w-[50%]">
           <h1 className='text-5xl font-bold pb-10'>Balanced meals for busy lives.</h1>
           <button className='font-weight-500 text-blue-500 px-4 py-2 bg-white border-solid border-blue-500 border-2 hover:bg-blue-900'>Explore Meals</button> 
           <p className='pt-10 pb-5 text-lg font-bold'>See meals available in your area!</p>
@@ -34,9 +28,6 @@ export default function HomeHero({image}){
         </form>
           <button className='bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Get Started</button> 
           <p className='pt-5'>By continuing, you agree to ourTermsandPrivacy Policy& will receive emails from Freshly.</p> 
-        </div>
-        <div>
-          <h1 className="text-3xl text-white font-bold">Delivered to you fresh , not frozen.</h1>
         </div>
       </div>    
     )

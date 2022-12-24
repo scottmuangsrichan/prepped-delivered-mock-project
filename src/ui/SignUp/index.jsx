@@ -8,7 +8,7 @@ export default function SignUp(){
     const textStyling = "text-xs"
     
     return (
-        <div className="bg-heroBackground p-12">
+        <div className="bg-heroBackground bg-cover p-12">
             <div className="bg-slate-100 flex flex-col gap-2 p-10 m-auto w-fit">
                 <div>Logo Holder</div>
                 <h1 className="text-4xl font-bold pb-3">{"Dinner's ready!"}</h1>

@@ -11,12 +11,12 @@ export default function PlansAndMenuPage(){
     return(
         <div>
             <Navigation />
-            <MealPlansSubscriptions />
             <OnTheMenu />
             <Menu />
             <EveryLifestyleDiet />
+            <MealPlansSubscriptions />
             <CommonQuestions />
-            <VisitPage
+            <VisitPage 
                 heading="Have other questions?"
                 link="Visit FAQs"
             />

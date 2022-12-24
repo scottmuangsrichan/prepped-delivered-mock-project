@@ -1,9 +1,9 @@
 import Navigation from "../ui/Navigation";
 import VisitPage from "../ui/VisitPage";
-import Footer from "../ui/SiteMap";
 import MenuItemCard from "../ui/MenuItem";
 import BlogPost from "../ui/BlogPost";
 import Styling from "../ui/Styling/index";
+import SiteMap from "../ui/SiteMap";
 
 const headingStyle = Styling().heading;
 const paragraphStyle = Styling().paragraphText;
@@ -16,6 +16,16 @@ export default function AboutMealPrepPage(){
             <AboutHeroHeader />
             <AboutVideo />
             <FoodPhilosophy />
+            <WhyChooseUs />
+            <LatestBlogSection />
+            <VisitPage 
+                heading="Ready to Meal Prep"
+                link="Get Started"
+            />
+            <SiteMap />
+            {/* <AboutHeroHeader />
+            <AboutVideo />
+            <FoodPhilosophy />
             <LatestBlogSection />
             <CallToActionBanner />
             <HowMealPrepWorks />
@@ -25,7 +35,7 @@ export default function AboutMealPrepPage(){
                 heading="Ready to Meal Prep"
                 link="Get Started"
             />
-            <Footer />
+            <Footer /> */}
         </div>
     )
 }
@@ -106,8 +116,8 @@ function FoodPhilosophy(){
 function LatestBlogSection(){
     return ( 
         <div className="w-1440 m-auto px-32">
-            <div className="w-92 m-auto flex flex-col justify-center items-center p-20 gap-12">
-                <BlogPost 
+            <div className="m-auto flex flex-col justify-center items-center p-20 gap-12">
+                <BlogPost
                     img = "https://assets-global.website-files.com/5d03b4e130118314af624b20/61f12967e9b288185149d2ae_22_About_DeliciousGlutenFree_448x278.jpg"
                     title="Delicious Gluten-Free Options"
                     previewText="Freshly offers a host of gluten-free meals, so you can avoid gluten without skimping on variety or great taste."
@@ -126,7 +136,6 @@ function LatestBlogSection(){
                     title="Delicious Gluten-Free Options"
                     previewText="Freshly offers a host of gluten-free meals, so you can avoid gluten without skimping on variety or great taste."
                     link="Learn More"
-
                 />
             </div>
         </div>

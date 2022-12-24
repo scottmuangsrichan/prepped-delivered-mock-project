@@ -2,7 +2,7 @@ import HowItWorksCard from "../HowItWorksCard"
 
 export default function HowItWorks() {
     return (
-      <>
+      <div className="w-screen">
         <div className='max-w-[1440px] w-[1200px] m-auto py-16'>
           <h1 className='text-center font-bold text-5xl pb-10'>How it works</h1>
           <div className='flex gap-10 justify-center items-center text-center'>
@@ -28,7 +28,7 @@ export default function HowItWorks() {
             />
           </div>
         </div>
-      </>
+      </div>
     )
   }
   
