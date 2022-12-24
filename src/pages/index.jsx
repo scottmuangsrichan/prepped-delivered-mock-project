@@ -21,6 +21,7 @@ export default function Home() {
           image='https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80' 
       />
       <HowItWorks />
+      <ExploreMeals />
       <MealPlansSubscriptions />
       <Reviews />
       <LearnMore />
