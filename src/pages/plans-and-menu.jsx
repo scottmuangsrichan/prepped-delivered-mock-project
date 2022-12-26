@@ -30,8 +30,8 @@ export default function PlansAndMenuPage(){
 
 function EveryLifestyleDiet(){
     return (
-        <div className="max-w-[1440px] w-[1200px] m-auto py-12">
-            <div className="pb-8">
+        <div className="w-screen m-auto py-12">
+            <div className="pb-8 max-w-[1440px] w-[1200px] m-auto">
                 <div className="w-3/4 m-auto">
                     <h1 className="text-5xl font-bold text-center pb-10">For Every Diet & Lifestyle</h1>
                     <p className="m-auto text-center text-sm">
@@ -40,7 +40,7 @@ function EveryLifestyleDiet(){
                         crafted to meet your dietary wants and needs.
                     </p>
                 </div>
-            </div>
+            
             <div className="flex m-auto text-center">
                 <EveryLifestyleDietCard 
                     img = "https://assets-global.website-files.com/5d03b4e130118314af624b20/620001104582091be7236479_Freshly_Iconography_DietaryIcons-03-p-500.png"
@@ -67,6 +67,7 @@ function EveryLifestyleDiet(){
                     title="Calorie-Conscious"
                     description="Low-calorie meal plan with perfect portion"
                 />
+            </div>
             </div>
         </div>
     )

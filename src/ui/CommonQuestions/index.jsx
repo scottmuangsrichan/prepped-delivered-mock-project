@@ -1,4 +1,4 @@
-import {IoIosArrowDown} from 'react-icons/io';
+import {IoIosArrowDown, IoIosArrowUp} from 'react-icons/io';
 import {useState} from 'react';
 
 export default function CommonQuestions(){
@@ -14,9 +14,16 @@ export default function CommonQuestions(){
                     onClick={()=> setShowMore(!showMore)}
                     >
                     <h1 className={questionHeader}>{title}</h1>
-                    <IoIosArrowDown 
-                        className={iconStyling}
-                    />
+                    {
+                        showMore ? 
+                        <IoIosArrowUp 
+                            className={iconStyling}
+                        /> : 
+                        <IoIosArrowDown 
+                            className={iconStyling}
+                        />
+
+                    }
                 </div>
                 {showMore ? <p className='pb-6'>{description}</p> : null }
                 <hr></hr>
