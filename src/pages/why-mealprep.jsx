@@ -23,19 +23,6 @@ export default function AboutMealPrepPage(){
                 link="Get Started"
             />
             <SiteMap />
-            {/* <AboutHeroHeader />
-            <AboutVideo />
-            <FoodPhilosophy />
-            <LatestBlogSection />
-            <CallToActionBanner />
-            <HowMealPrepWorks />
-            <LatestBlogSection />
-            <WhyChooseUs />
-            <VisitPage 
-                heading="Ready to Meal Prep"
-                link="Get Started"
-            />
-            <Footer /> */}
         </div>
     )
 }

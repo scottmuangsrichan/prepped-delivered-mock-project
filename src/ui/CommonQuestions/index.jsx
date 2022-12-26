@@ -4,9 +4,9 @@ import {useState} from 'react';
 export default function CommonQuestions(){
     const questionHeader = "font-bold hover:text-blue-500";
     const iconStyling = "text-blue-500 text-3xl"
-    const [showMore , setShowMore] = useState(false);
-
+    
     function Question({title , description}){
+        const [showMore , setShowMore] = useState(false);
         return (
             <div className='px-20 py-3 w-3/4 m-auto'>
                 <div 
@@ -14,8 +14,8 @@ export default function CommonQuestions(){
                     onClick={()=> setShowMore(!showMore)}
                     >
                     <h1 className={questionHeader}>{title}</h1>
-                    <IoIosArrowDown className={iconStyling}
-                        onClick={()  => setShowMore(!showMore)}
+                    <IoIosArrowDown 
+                        className={iconStyling}
                     />
                 </div>
                 {showMore ? <p className='pb-6'>{description}</p> : null }
