@@ -1,9 +1,9 @@
 export default function HomeHero(){  
   return (
       <div className="flex flex-row justify-between bg-heroBackground bg-cover">
-        <div className="top-52">
-          <p className="text-white text-3xl">
-            Delivered fresh to your door.
+        <div className="translate-y-3/4">
+          <p className="text-white text-3xl font-bold translate-x-full">
+            Delivered fresh <br/>to your door.
           </p>
         </div>
         <div className="bg-yellow-400 p-12 w-[50%]">
