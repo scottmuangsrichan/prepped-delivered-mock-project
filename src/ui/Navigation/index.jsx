@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Navigation() {
     return (
       <div className='bg-white sticky top-0 z-10 w-screen'> 
-        <nav className='flex justify-between py-6 items-center font-medium max-w-[1440px] m-auto'>
+        <nav className='flex justify-between py-6 items-center font-medium max-w-[1440px] w-[1200px] m-auto'>
           <div>
             <Link href="/">Modern Phase</Link>
           </div>

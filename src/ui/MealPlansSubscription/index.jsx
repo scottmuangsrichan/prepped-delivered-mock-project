@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function MealPlansSubscriptions() {
     return (
-      <div className='bg-freshly-white pb-10'>
-        <div className="w-1440 m-auto px-12">
+      <div className='bg-freshly-white pb-10 w-screen'>
+        <div className="max-w-[1440px] w-[1200px] m-auto px-12">
           <div className='text-center p-12'>logo</div>
           <h1 className='text-center text-4xl font-bold pb-5'>Flexible plans that fit your life</h1>
           <p className='pb-10 w-1/2 m-auto text-center'>We offer anywhere from 4 - 12 meals per week, with meals as low 

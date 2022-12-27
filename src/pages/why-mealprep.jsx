@@ -4,6 +4,7 @@ import MenuItemCard from "../ui/MenuItem";
 import BlogPost from "../ui/BlogPost";
 import Styling from "../ui/Styling/index";
 import SiteMap from "../ui/SiteMap";
+import CommonQuestions from "../ui/CommonQuestions";
 
 const headingStyle = Styling().heading;
 const paragraphStyle = Styling().paragraphText;
@@ -22,20 +23,8 @@ export default function AboutMealPrepPage(){
                 heading="Ready to Meal Prep"
                 link="Get Started"
             />
+            <CommonQuestions />
             <SiteMap />
-            {/* <AboutHeroHeader />
-            <AboutVideo />
-            <FoodPhilosophy />
-            <LatestBlogSection />
-            <CallToActionBanner />
-            <HowMealPrepWorks />
-            <LatestBlogSection />
-            <WhyChooseUs />
-            <VisitPage 
-                heading="Ready to Meal Prep"
-                link="Get Started"
-            />
-            <Footer /> */}
         </div>
     )
 }
