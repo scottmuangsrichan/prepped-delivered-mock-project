@@ -57,7 +57,7 @@ function CallToActionBanner(){
 
 function AboutHeroHeader(){
     return (
-        <div className="w-1440 m-auto p-20">
+        <div className="md:max-w-[1440px] md:w-[1200px] m-auto p-20">
             <h1 className="font-bold text-5xl text-center m-auto">About Meal Prep</h1>
         </div>
     )
@@ -65,7 +65,7 @@ function AboutHeroHeader(){
 
 function AboutVideo(){
     return(
-        <div className="w-1440 m-auto p-10 flex justify-center items-center flex-col gap-4">
+        <div className="md:max-w-[1440px] md:w-[1200px] m-auto p-10 flex justify-center items-center flex-col gap-4">
             <h1 className="font-bold text-4xl text-center m-auto">Heat-and-eat in 3 minutes or less</h1>
             <p className="text-sm">See just how easy it is to prepare a chef-cooked Freshly meal</p>
             <div className="w-92 h-100">
@@ -77,10 +77,10 @@ function AboutVideo(){
 
 function FoodPhilosophy(){
     return ( 
-        <div className="w-1440 flex flex-col items-center justify-center m-auto gap-4 p-20">
+        <div className="md:max-w-[1440px] md:w-[1200px] flex flex-col items-center justify-center m-auto gap-4 p-20">
             <h1 className="font-bold text-4xl text-center m-auto">Our Food Philosophy</h1>
             <p className="text-sm text-center">Our meals aren’t just ready in minutes... or just delicious... or just nutritious. They’re all three.</p>
-            <div className="flex m-auto w-1440 items-center justify-center">
+            <div className="flex flex-col md:flex-row md:max-w-[1440px] md:w-[1200px] items-center justify-center">
                 <MenuItemCard 
                     img="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec28f0020df16335dbda1b6_gp-less-sugar-nocopy%402x.png"
                     title="Less Sugar"
@@ -104,7 +104,7 @@ function FoodPhilosophy(){
 
 function LatestBlogSection(){
     return ( 
-        <div className="w-1440 m-auto px-32">
+        <div className="md:max-w-[1440px] md:w-[1200px] mx-auto">
             <div className="m-auto flex flex-col justify-center items-center p-20 gap-12">
                 <BlogPost
                     img = "https://assets-global.website-files.com/5d03b4e130118314af624b20/61f12967e9b288185149d2ae_22_About_DeliciousGlutenFree_448x278.jpg"
