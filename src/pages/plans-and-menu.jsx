@@ -31,17 +31,17 @@ export default function PlansAndMenuPage(){
 function EveryLifestyleDiet(){
     return (
         <div className="w-screen m-auto py-12">
-            <div className="pb-8 sm:max-w-[1440px] m-auto">
-                <div className="w-3/4 m-auto">
+            <div className="pb-8 md:max-w-[1440px] md:w-[1200px] mx-auto">
+                <div className="w-fit m-auto">
                     <h1 className="text-5xl font-bold text-center pb-10">For Every Diet & Lifestyle</h1>
-                    <p className="m-auto text-center text-sm">
+                    <p className="m-auto text-center md:w-1/2 pb-10">
                         We’re here to make every dish delicious and nutritious, 
                         with prepared meals that satisfy a wide range of tastes—all meticulously 
                         crafted to meet your dietary wants and needs.
                     </p>
                 </div>
             
-            <div className="flex m-auto text-center">
+            <div className="flex m-auto text-center md:flex-row flex-col">
                 <EveryLifestyleDietCard 
                     img = "https://assets-global.website-files.com/5d03b4e130118314af624b20/620001104582091be7236479_Freshly_Iconography_DietaryIcons-03-p-500.png"
                     title="Purely Plant"
