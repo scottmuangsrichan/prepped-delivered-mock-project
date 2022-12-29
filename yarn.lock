@@ -589,6 +589,11 @@
   dependencies:
     "esutils" "^2.0.2"
 
+"dotenv@^16.0.3":
+  "integrity" "sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
+  "version" "16.0.3"
+
 "electron-to-chromium@^1.4.251":
   "integrity" "sha512-iEx72lv4P85PJ8HA9KEAss4o6ESK+hcxzM1cksZDo0H8KekaI+cloQyxOCASmHQO9ogmGyEELtBzxqqdeNwIgQ=="
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.273.tgz"
