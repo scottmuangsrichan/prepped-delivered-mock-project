@@ -6,7 +6,6 @@ import Reviews from '../ui/Reviews/index.jsx';
 import SiteMap from '../ui/SiteMap/index.jsx';
 import MealPlansSubscriptions from '../ui/MealPlansSubscription/index.jsx';
 import ExploreMeals from '../ui/ExploreMeals/index.jsx';
-import NavigationMobile from '../ui/NavigationMobile/index.jsx';
 import Link from 'next/link.js';
 import Image from 'next/image.js';
 
@@ -34,7 +33,7 @@ export default function Home() {
 
 function LearnMore(){
   return (
-    <div className='max-w-[1440px] w-[1200px] m-auto flex flex-row justify-between p-16 items-center'>
+    <div className='max-w-[1440px] sm:w-[1200px] m-auto flex flex-col sm:flex-row justify-between p-16 items-center'>
       <div className='p-12 flex flex-col gap-6 bg-white relative left-[2rem] max-w-[50rem] w-2/3 z-[2]'>
         <h1 className='font-bold text-4xl'>We believe eating right should be easy for everyone.</h1>
         <p>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.
