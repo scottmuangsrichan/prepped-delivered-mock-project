@@ -32,7 +32,7 @@ export default function CommonQuestions(){
     }
 
     return (
-        <div className='py-12 w-1440 m-auto'>
+        <div className='py-12 m-auto sm:w-[1200px]'>
             <h1 className='font-bold text-5xl text-center pb-12'>Common Questions</h1>
             <Question 
                 title="How many servings are your meals?"

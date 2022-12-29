@@ -1,8 +1,8 @@
 export default function Login(){
     return(
-        <div className="flex flex-col m-auto gap-10 justify-center items-center px-20 py-24 bg-freshly-white-2">
+        <div className="flex flex-col m-auto gap-10 justify-center items-center px-10 sm:px-20 py-24 bg-freshly-white-2">
             <h1 className="font-bold text-5xl">Log In</h1>
-            <div className="w-128">
+            <div className="sm:w-[600px]">
                 <form className="flex flex-col gap-8 pb-8">
                     <div className="flex flex-col">
                         <label className="font-semibold pb-1">Email</label>

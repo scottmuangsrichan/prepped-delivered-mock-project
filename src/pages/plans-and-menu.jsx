@@ -31,7 +31,7 @@ export default function PlansAndMenuPage(){
 function EveryLifestyleDiet(){
     return (
         <div className="w-screen m-auto py-12">
-            <div className="pb-8 max-w-[1440px] w-[1200px] m-auto">
+            <div className="pb-8 sm:max-w-[1440px] m-auto">
                 <div className="w-3/4 m-auto">
                     <h1 className="text-5xl font-bold text-center pb-10">For Every Diet & Lifestyle</h1>
                     <p className="m-auto text-center text-sm">

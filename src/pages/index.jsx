@@ -6,9 +6,9 @@ import Reviews from '../ui/Reviews/index.jsx';
 import SiteMap from '../ui/SiteMap/index.jsx';
 import MealPlansSubscriptions from '../ui/MealPlansSubscription/index.jsx';
 import ExploreMeals from '../ui/ExploreMeals/index.jsx';
+import NavigationMobile from '../ui/NavigationMobile/index.jsx';
 import Link from 'next/link.js';
 import Image from 'next/image.js';
-import Cart from '../ui/Cart/index.jsx';
 
 export default function Home() {
   return (
@@ -27,7 +27,6 @@ export default function Home() {
       <Reviews />
       <LearnMore />
       <GetStarted />
-      <Cart />
       <SiteMap />
     </div>
   )

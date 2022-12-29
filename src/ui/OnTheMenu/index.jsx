@@ -2,7 +2,7 @@ import Styling from "../Styling";
 
 export default function OnTheMenu(){
     return (
-        <div className="flex flex-col gap-10 p-20 w-1440 m-auto justify-center items-center">
+        <div className="sm:flex flex-col gap-10 p-10 m-auto justify-center items-center">
             <div>
                 <h1 className={Styling().heading}>On the Menu</h1>
             </div>

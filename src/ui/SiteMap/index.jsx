@@ -1,10 +1,10 @@
 export default function SiteMap(){
     return (
       <footer className='bg-slate-100 p-20 border-t-2 border-solid w-screen'>
-        <div className='flex justify-evenly items-top px-20 max-w-[1440px] m-auto'>
+        <div className='sm:flex justify-evenly items-top sm:px-20 max-w-[1440px] m-auto'>
           <div>
-            <h1 className='pb-4 font-semibold'>logo</h1>
-            <p>Logo Copyright</p>
+            <h1 className='pb-4 font-semibold'>Modern Phase</h1>
+            <p>Copyright 2022</p>
           </div>
           <div>
             <h6 className='pb-4 font-semibold'>Company</h6>

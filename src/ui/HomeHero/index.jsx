@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomeHero(){  
   return (
       <div className="flex flex-row justify-between bg-heroBackground bg-cover">
@@ -27,7 +29,10 @@ export default function HomeHero(){
           </div>
         </form>
           <button className='bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Get Started</button> 
-          <p className='pt-5'>By continuing, you agree to ourTermsandPrivacy Policy& will receive emails from Freshly.</p> 
+          <p className='pt-5'>
+            By continuing, you agree to our 
+              <Link href="/"><a className="underline underline-offset-1 text-blue-500">Terms</a></Link> and <Link href="/"><a className="underline underline-offset-1 text-blue-500">Privacy Policy</a></Link> & will receive emails from Freshly.
+          </p> 
         </div>
       </div>    
     )

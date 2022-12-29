@@ -1,4 +1,20 @@
 import Image from "next/image";
+
+function getProductInfo(){
+  async function getServerSideProps(){
+    const res = await fetch(url , {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
+    const data = await res.json();
+    return data;
+  }
+}
+
+
+
 export default function MenuItemCard({title , description, img }){
   return (
       <div className='text-left p-1 hover:text-gray-500 flex flex-col justify-center items-center pb-12'>

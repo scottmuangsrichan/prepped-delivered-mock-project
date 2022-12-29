@@ -13,10 +13,12 @@ export default function HowItWorksCard({ title , description, subheading , subpa
               height={50}
             />
           </div>
-          <h1 className='text-lg font-bold pt-5'>{title}</h1>
-          <h6 className="text-2xl font-bold">{subheading}</h6>
-          <p className='text-sm pt-1'>{description}</p>
-          <p className="text-sm pt-1">{subparagraph}</p>
+          <div className="text-center">
+            <h1 className='text-lg font-bold pt-5'>{title}</h1>
+            <h6 className="text-2xl font-bold">{subheading}</h6>
+            <p className='text-sm pt-1'>{description}</p>
+            <p className="text-sm pt-1">{subparagraph}</p>
+          </div>
         </div>
     )
   }
