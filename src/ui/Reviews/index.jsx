@@ -6,7 +6,7 @@ export default function Reviews(){
     const [slide ,setSlide] = useState(false)
     return (
       <div className='bg-freshly-white w-screen'>
-        <div className='py-12 bg-freshly-white m-auto md:flex flex-col items-center'>
+        <div className='py-12 bg-freshly-white m-auto md:max-w-[1440px] md:w-[1200px] md:flex flex-col items-center'>
           <h1 className='sm:text-5xl text-3xl font-bold py-12 text-center'>What Others Are Saying</h1>
           <div className='sm:flex justify-evenly py-6 items-center'>
             <div className='text-4xl px-2 text-blue-500'>
