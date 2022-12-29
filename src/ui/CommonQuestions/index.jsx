@@ -8,7 +8,7 @@ export default function CommonQuestions(){
     function Question({title , description}){
         const [showMore , setShowMore] = useState(false);
         return (
-            <div className='px-20 py-3 w-3/4 m-auto'>
+            <div className='md:px-40 px-10 py-3 m-auto md:w-[1200px]'>
                 <div 
                     className='flex flex-row justify-between pb-3'
                     onClick={()=> setShowMore(!showMore)}
@@ -32,7 +32,7 @@ export default function CommonQuestions(){
     }
 
     return (
-        <div className='py-12 m-auto sm:w-[1200px]'>
+        <div className='py-12 m-auto md:w-[1200px]'>
             <h1 className='font-bold text-5xl text-center pb-12'>Common Questions</h1>
             <Question 
                 title="How many servings are your meals?"

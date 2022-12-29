@@ -24,13 +24,13 @@ export default function GiftCardsPage(){
 
 export function GCHowItWorks(){
     return (
-        <div className="max-w-[1440px] sm:w-[1200px] m-auto">
-            <div className="flex flex-col items-center justify-center text-center p-20 gap-3">
+        <div className="max-w-[1440px] md:w-[1200px] m-auto">
+            <div className="flex flex-col items-center justify-center text-center md:p-20 gap-3">
                 <div>
                     <h1 className='font-bold text-5xl pb-3'>Give The Greatest Gift Ever</h1>
                     <p className="font-bold">(Yes its freshly)</p>
                 </div>
-                <div className="flex flex-row items-center justify-between">
+                <div className="flex md:flex-row flex-col items-center justify-between">
                     <div>
                         <HowItWorksCard
                             title="Step 1"
@@ -68,7 +68,7 @@ export function GCHowItWorks(){
 
 function GiftCardHero(){
     return (
-        <div className="max-w-[1440px] m-auto">
+        <div className="max-w-[1440px] md:w-[1200px] m-auto">
             <div className="flex items-center justify-center m-auto">
                 <div className="flex flex-col gap-3 items-left my-auto bg-white w-1/2">
                     <h1 className="font-bold text-5xl pb-3">Enjoy the Gift of <br /> Effortless Meals</h1>
