@@ -1,10 +1,11 @@
 import MenuItemImage from "../MenuItemImage";
+import MacroDisplay from "../MacroDisplay";
 import Tag from "../Tag";
 
-export default function MenuItemDetails({imgUrl , menuItemName, calorieCount}){
+export default function MenuItemDetails({menuItemName, calorieCount, category}){
   return( 
     <div className="fixed z-10 top-[50%] left-[50%] max-h-[500px] w-[100%] bg-transparent translate-x-[-50%] translate-y-[-40%]">
-      <div className="w-[100%] flex mx-auto justify-center">
+      <div className="w-[100%] flex md:flex-row flex-col mx-auto justify-center">
         <MenuItemImage />
         <div className="bg-white w-[1/2]">
           <div className="flex md:flex-col">
@@ -30,25 +31,25 @@ export default function MenuItemDetails({imgUrl , menuItemName, calorieCount}){
               <p>Premium Protein</p>
             </div>
             <div className="flex flex-row gap-10">
-              <div className="bg-red-100">
-                <h3>26</h3>
-                <h4>Protein</h4>
-              </div>
-              <div className="bg-red-100">
-                <h3>16</h3>
-                <h4>Fats</h4>
-              </div>
-              <div className="bg-red-100">
-                <h3>38</h3>
-                <h4>Carbs</h4>
-              </div>
+             <MacroDisplay 
+              macroType = "Protein"
+              macroAmount = "26"
+             />
+             <MacroDisplay 
+              macroType = "Carb"
+              macroAmount = "35"
+             />
+             <MacroDisplay 
+              macroType ="Fat"
+              macroAmount = "10"
+             />
             </div>
             <hr></hr>
             <div>
-              <button>View Plan</button>
+              <button className="border border-solid-1 border-red-100 p-10">View Plan</button>
             </div>
             <div>
-              <button>Claim Offer Now</button>
+              <button className="bg-red-100 p-10">Claim Offer Now</button>
             </div>
           </div>
         </div>
