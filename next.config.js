@@ -6,6 +6,7 @@ const nextConfig = {
     domains: [
       "assets-global.website-files.com",
       "images.unsplash.com",
+      "www.freshnlean.com"
     ]
   }
 }

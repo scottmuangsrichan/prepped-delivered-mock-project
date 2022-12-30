@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import Link from 'next/link.js';
+import Image from 'next/image.js';
+
 import Navigation from '../ui/Navigation/index.jsx';
 import HomeHero from '../ui/HomeHero/index.jsx';
 import HowItWorks from '../ui/HowItWorks/index';
@@ -6,8 +9,9 @@ import Reviews from '../ui/Reviews/index.jsx';
 import SiteMap from '../ui/SiteMap/index.jsx';
 import MealPlansSubscriptions from '../ui/MealPlansSubscription/index.jsx';
 import ExploreMeals from '../ui/ExploreMeals/index.jsx';
-import Link from 'next/link.js';
-import Image from 'next/image.js';
+import MenuItemDetails from '../ui/MenuItemDetails/index.jsx';
+
+
 
 export default function Home() {
   return (
@@ -27,6 +31,11 @@ export default function Home() {
       <LearnMore />
       <GetStarted />
       <SiteMap />
+      <MenuItemDetails 
+        imgUrl="https://www.freshnlean.com/wp-content/uploads/2022/12/Kalamata-and-Tomato-Marinara-Shrimp-Linguini-1024x1024.jpg"
+        menuItemName="Kalamata and Tomato Marinara Shrimp Linguini"
+        calorieCount="400"
+      />
     </div>
   )
 }
