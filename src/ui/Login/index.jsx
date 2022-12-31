@@ -1,4 +1,6 @@
 import EmailInputField from "../EmailInputField";
+import Link from "next/link";
+
 
 export default function Login(){
     return(
@@ -18,8 +20,14 @@ export default function Login(){
                     <button className='bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Log In</button>
                 </form>
                 <div className="flex justify-between text-sm">
-                    <a className="underline underline-offset-2 text-blue-500">Forgot Password?</a>
-                    <p>{"Don't have an account?"}<a className="underline underline-offset-2 text-blue-500">Get Started</a></p>
+                    <Link href="/Forgot Password">
+                        <a className="underline underline-offset-2 text-blue-500">Forgot Password?</a>
+                    </Link>
+                    <p>{"Don't have an account?"}
+                        <Link href="/join-now">
+                            <a className="underline underline-offset-2 text-blue-500">Get Started</a>
+                        </Link>
+                    </p>
                 </div>
             </div>
         </div>
