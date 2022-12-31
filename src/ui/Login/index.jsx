@@ -11,7 +11,9 @@ export default function Login(){
                         <label className="font-semibold pb-1">Password</label>
                         <input 
                             className='border-solid border-2 p-2 hover:border-blue-300'
-                            placeholder="enter password" />
+                            placeholder="enter password"
+                            type="password"
+                            />
                     </div>
                     <button className='bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Log In</button>
                 </form>

@@ -1,0 +1,15 @@
+scopes= "
+  unauthenticated_write_checkouts, 
+  unauthenticated_read_checkouts, 
+  unauthenticated_read_content, 
+  unauthenticated_read_content_models, 
+  unauthenticated_read_content_entries, 
+  unauthenticated_write_customers, 
+  unauthenticated_read_customers, 
+  unauthenticated_read_customer_tags, 
+  unauthenticated_read_product_listings, 
+  unauthenticated_read_product_inventory, 
+  unauthenticated_read_product_pickup_locations, 
+  unauthenticated_read_product_tags, 
+  unauthenticated_read_selling_plans
+"

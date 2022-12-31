@@ -16,7 +16,7 @@ export default function EmailInputField(){
       <label className='pb-3'>Email Address</label>
       <input 
         placeholder='food@mealprep.com'
-        className='p-2'
+        className='border-solid border-2 p-2 hover:border-blue-300'
         type="email"
         value={email}
         id="email"

@@ -1,12 +1,16 @@
+import '@shopify/shopify-api/adapters/node';
+import {shopifyApi, LATEST_API_VERSION} from '@shopify/shopify-api';
 const dotenv = require('dotenv');
-const Shopify = require('@shopify/api-node');
 
 dotenv.config();
 
-const shopify = new Shopify({
-  shopName: process.env.SHOP_NAME,
+const shopify = shopifyApi({
   apiKey: process.env.SHOPIFY_API_KEY,
-  password: process.env.SHOPIFY_API_PASSWORD,
+  apiSecretKey: process.env.SHOPIFY_API_SECRET_KEY,
+  scopes: [process.env.SCOPES],
+  hostName: process.env.HOST || 'ngrok-tunnel-address',
+  privateAppStorefrontAccessToken: process.env.STOREFRONT_API_ACCESS_TOKEN,
+  ...
 });
 
 module.exports = shopify;
