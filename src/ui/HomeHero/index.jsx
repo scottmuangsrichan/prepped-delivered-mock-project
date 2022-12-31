@@ -4,7 +4,7 @@ import ZipCodeInputField from "../ZipCodeInputField";
 
 export default function HomeHero(){  
   return (
-      <div className="sm:flex flex-row justify-between bg-heroBackground bg-cover">
+      <div className="md:flex flex-row justify-between bg-heroBackground bg-cover">
         <div className="translate-y-3/4">
           <p className="text-white text-3xl font-bold translate-x-full">
             Delivered fresh <br/>to your door.
@@ -14,7 +14,7 @@ export default function HomeHero(){
           <h1 className='text-5xl font-bold pb-10'>Balanced meals for busy lives.</h1>
           <button className='font-weight-500 text-blue-500 px-4 py-2 bg-white border-solid border-blue-500 border-2 hover:bg-blue-900'>Explore Meals</button> 
           <p className='pt-10 pb-5 text-lg font-bold'>See meals available in your area!</p>
-        <form className='flex flex-row gap-5 pb-5'>
+        <form className='flex flex-col md:flex-row gap-5 pb-5'>
           <EmailInputField />
           <ZipCodeInputField />
         </form>
