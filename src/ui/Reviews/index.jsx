@@ -3,13 +3,14 @@ import {BsArrowLeftCircle , BsArrowRightCircle} from 'react-icons/bs';
 import {useState} from 'react';
 
 export default function Reviews(){
-    const [slide ,setSlide] = useState(false)
+    const [slide ,setSlide] = useState(false);
+    // The review object needs to be passed in from an API. Not sure where the reviews will live. Trustpilot seems to be a common choice.
     return (
       <div className='bg-freshly-white w-screen'>
         <div className='py-12 bg-freshly-white m-auto md:max-w-[1440px] md:w-[1200px] md:flex flex-col items-center'>
           <h1 className='sm:text-5xl text-3xl font-bold py-12 text-center'>What Others Are Saying</h1>
           <div className='sm:flex justify-evenly py-6 items-center'>
-            <div className='text-4xl px-2 text-blue-500'>
+            <div className='invisible md:visible md:text-4xl md:px-2 md:text-blue-500'>
               <BsArrowLeftCircle />
             </div>
             <div>
@@ -36,7 +37,7 @@ export default function Reviews(){
                 customerName='Mary'
               />
             </div>
-            <div className='text-4xl px-2 text-blue-500'>
+            <div className='invisible md:visible md:text-4xl md:px-2 md:text-blue-500'>
               <BsArrowRightCircle />
             </div>
           </div>
