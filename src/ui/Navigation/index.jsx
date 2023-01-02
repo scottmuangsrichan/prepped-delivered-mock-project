@@ -19,7 +19,7 @@ export default function Navigation() {
       <div className='bg-white sticky top-0 z-10 w-screen'> 
       <AnnouncementBar />
       { navBarStyle.variant1.width >= 400 ?  
-        <nav className={`${navBarStyle.variant1.style}`}>
+        <nav className="flex flex-col justify-between py-6 items-center font-medium sm:w-[1300px] sm:mx-auto sm:flex-row">
           <div>
             <Link href="/">Modern Phase</Link>
           </div>

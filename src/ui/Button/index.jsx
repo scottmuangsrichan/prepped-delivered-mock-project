@@ -15,7 +15,7 @@ function Button({url , variant, displayText}){
   return(
     <div>
     <Link href={url}>
-      <button className={variant}>
+      <button className="w-fit bg-blue-500 px-4 py-2 text-white hover:bg-blue-900">
         <a>{displayText}</a>
       </button> 
     </Link>  

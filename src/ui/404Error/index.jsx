@@ -1,6 +1,6 @@
 import Navigation from "../Navigation";
 
-function Error404(){
+export default function Error404(){
   return(
     <div>
       <Navigation />
@@ -9,4 +9,3 @@ function Error404(){
   )
 }
 
-export default Error404;
