@@ -1,19 +1,7 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MenuItemDetails from "../MenuItemDetails";
 
-function getProductInfo(){
-  async function getServerSideProps(){
-    const res = await fetch(url , {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json"
-      }
-    });
-    const data = await res.json();
-    return data;
-  }
-}
 
 
 export default function MenuItemCard({title , description, img }){
