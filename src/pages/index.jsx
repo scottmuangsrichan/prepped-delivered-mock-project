@@ -1,7 +1,5 @@
 import Head from 'next/head';
 
-
-
 import Navigation from '../ui/Navigation/index.jsx';
 import HomeHero from '../ui/HomeHero/index.jsx';
 import HowItWorks from '../ui/HowItWorks/index';

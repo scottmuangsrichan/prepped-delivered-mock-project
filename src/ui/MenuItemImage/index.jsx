@@ -1,7 +1,11 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
+
 
 function MenuItemImage({alt = "", imageUrl = ""}){
+  useQuery = `
+  
+  `;
+
   return (
   <div className="w-[35%]">
     <Image
