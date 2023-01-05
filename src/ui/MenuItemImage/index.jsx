@@ -2,10 +2,6 @@ import Image from "next/image";
 
 
 function MenuItemImage({alt = "", imageUrl = ""}){
-  useQuery = `
-  
-  `;
-
   return (
   <div className="w-[35%]">
     <Image
