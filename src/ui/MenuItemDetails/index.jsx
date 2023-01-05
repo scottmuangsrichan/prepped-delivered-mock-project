@@ -2,7 +2,9 @@ import MenuItemImage from "../MenuItemImage";
 import MacroDisplay from "../MacroDisplay";
 import Tag from "../Tag";
 
-export default function MenuItemDetails({ menuItemName, calorieCount, category }) {
+export default function MenuItemDetails({ product }) {
+  const {menuItemName , altText , url , calorieCount} = product.node;
+  
   return (
     <div className="fixed top-50% left-50% max-h-500px w-100% bg-transparent translate-x-50% translate-y-40%">
       <div className="w-100 flex flex-col md:flex-row mx-auto justify-center">

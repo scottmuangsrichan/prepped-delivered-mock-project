@@ -3,8 +3,8 @@ export default async function send(req, res) {
     query: { id },
   } = req
 
-  const domain = process.env.SHOPIFY_STORE_DOMAIN
-  const storefrontAccessToken = process.env.SHOPIFY_STOREFRONT_ACCESSTOKEN
+  const domain = process.env.PUBLIC_SHOPIFY_STORE_DOMAIN;
+  const storefrontAccessToken = process.env.STOREFRONT_API_ACCESS_TOKEN;
 
   async function ShopifyData(query) {
     const URL = `https://${domain}/api/2022-10/graphql.json`
