@@ -5,10 +5,10 @@ import { createServer } from '@shopify/koa-shopify-graphql-proxy';
 import shopify from '../../libs/shopify.config';
 import { getSession } from 'next-auth/client';
 
-export default async function graphqlProxy(
+export default async function graphqlProxy({
   req: NextApiRequest,
   res: NextApiResponse
-) {
+}) {
   if (req.method === 'GET') {
     const { shop, accessToken } = await getSession(req, res);
     const server = createServer({
