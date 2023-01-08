@@ -13,7 +13,7 @@ function GetStartedSection(){
           height={90}
           />
       </div>
-    <div className='p-12 flex flex-col bg-white relative left-[2rem] max-w-[50rem] w-2/3 z-[2]'>
+    <div className='md:p-12 flex flex-col bg-white relative left-[2rem] max-w-[50rem] w-2/3 z-[2]'>
       <h1 className='font-bold text-5xl'>Healthy Meals Delivered Weekly</h1>
       <form className='flex flex-col gap-4 py-2'>
         <input 
