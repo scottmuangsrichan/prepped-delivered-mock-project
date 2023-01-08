@@ -56,5 +56,6 @@ export default async function send(req, res) {
 
   const product = await getProduct(id)
   res.json(product)
+  console.log(product);
 }
 
