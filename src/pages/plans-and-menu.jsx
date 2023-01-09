@@ -19,6 +19,7 @@ export default function PlansAndMenuPage(){
             <VisitPage 
                 heading="Have other questions?"
                 link="Visit FAQs"
+                url="/faqs"
             />
             <SiteMap />
         </div>

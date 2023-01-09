@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function SiteMap(){
     return (
-      <footer className='bg-slate-100 md:p-20 border-t-2 border-solid w-screen'>
+      <footer className='bg-slate-100 md:p-10 border-t-2 border-solid w-screen'>
         <div className='md:flex md:justify-evenly md:items-top md:max-w-[1440px] md:w-[1200px] md:mx-auto p-10'>
           <div className="flex-col items-center flex md:place-items-start">
             <h1 className='pb-2 font-semibold'>Modern Phase</h1>
