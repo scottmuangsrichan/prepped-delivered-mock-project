@@ -23,7 +23,7 @@ export default function HomeHero(){
           <button className='bg-blue-500 px-4 py-2 text-white hover:bg-blue-900'>Get Started</button> 
           <p className='pt-5'>
             By continuing, you agree to our 
-              <Link href="/terms"><a className="underline underline-offset-1 text-blue-500"> Terms</a></Link> and <Link href="/privacy-policy"><a className="underline underline-offset-1 text-blue-500">Privacy Policy</a></Link> & will receive emails from Freshly.
+              <Link href="/terms"><a className="underline underline-offset-1 text-blue-500"> Terms</a></Link> and <Link href="/privacy-policy"><a className="underline underline-offset-1 text-blue-500">Privacy Policy</a></Link> & will receive emails from Prepped Delivered.
           </p> 
         </div>
       </div>    

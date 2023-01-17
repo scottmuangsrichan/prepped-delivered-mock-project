@@ -8,8 +8,8 @@ export default function Reviews(){
     return (
       <div className='bg-freshly-white w-screen'>
         <div className='py-12 bg-freshly-white m-auto md:max-w-[1440px] md:w-[1200px] md:flex flex-col items-center'>
-          <h1 className='sm:text-5xl text-3xl font-bold py-12 text-center'>What Others Are Saying</h1>
-          <div className='sm:flex justify-evenly py-6 items-center'>
+          <h1 className='sm:text-5xl text-3xl font-bold py-3 text-center'>What Others Are Saying</h1>
+          <div className='flex flex-col sm:flex-row items-center gap-14'>
             <div className='invisible md:visible md:text-4xl md:px-2 md:text-blue-500'>
               <BsArrowLeftCircle />
             </div>
@@ -17,7 +17,7 @@ export default function Reviews(){
               <CustomerReview
                 rating = {5}
                 titleOfReview='Meal prep has changed our lives!'
-                bodyOfReview='With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.'
+                bodyOfReview='With Prepped Delivered, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.'
                 customerName='Dave'
               />
             </div>
@@ -25,7 +25,7 @@ export default function Reviews(){
               <CustomerReview
                 rating = {5}
                 titleOfReview='10 stars! Awesome! Love it!'
-                bodyOfReview='With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.'
+                bodyOfReview='With Prepped Delivered, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.'
                 customerName='Sherri'
               />
             </div>
@@ -33,7 +33,7 @@ export default function Reviews(){
               <CustomerReview
                 rating = {5}
                 titleOfReview='Meal prep has changed our lives!'
-                bodyOfReview='With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.'
+                bodyOfReview='With Prepped Delivered, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.'
                 customerName='Mary'
               />
             </div>
