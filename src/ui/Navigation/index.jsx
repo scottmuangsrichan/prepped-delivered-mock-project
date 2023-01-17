@@ -23,7 +23,7 @@ export default function Navigation() {
         <nav className="flex flex-row justify-between py-6 px-8 items-center font-medium text-xl">
           <div><Link href="/">Modern Phase</Link></div>
           <div>
-            {width <= 390 ? 
+            {width <= 475 ? 
               <div onClick={() => setIsOpen(!isOpen)}>
                 <h1>Mobile Menu</h1>
                   { isOpen ?
