@@ -23,7 +23,11 @@ export default function SignUp(){
                 <div>Prepped Delivered</div>
                 <h1 className="text-3xl font-bold pb-3 text-center">{"Dinner's ready!"}</h1>
                 <h2 className="text-md text-center pb-3">Chef-prepared, healthy meals delivered weekly </h2>
-                <form className={formStyling}>
+                <form 
+                    className={formStyling}
+                    method="POST"
+                    action="/join-now/plan"
+                    >
                     <input 
                         className={inputStyling} 
                         placeholder="Email" 

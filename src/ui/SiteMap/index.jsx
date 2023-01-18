@@ -29,6 +29,9 @@ export default function SiteMap(){
             </div>
           </div>
         </div>
+        <div>
+          <h1 className="text-center">Developed by Modern Phase</h1>
+        </div>
       </footer>
     )
   }

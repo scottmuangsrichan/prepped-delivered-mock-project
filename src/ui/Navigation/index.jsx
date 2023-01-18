@@ -25,7 +25,7 @@ export default function Navigation() {
           <div>
             {width <= 475 ? 
               <div onClick={() => setIsOpen(!isOpen)}>
-                <h1>Mobile Menu</h1>
+                <h1>Menu</h1>
                   { isOpen ?
                     <div>
                       <div className='m-auto px-1'>
