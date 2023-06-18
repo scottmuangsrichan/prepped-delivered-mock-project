@@ -8,12 +8,16 @@ const nextConfig = {
       "images.unsplash.com",
       "www.freshnlean.com",
       "api.unsplash.com",
+      "cdn.shopify.com",
     ]
   },
   env: {
-    SHOPIFY_STOREFRONT_ACCESS_TOKEN: process.env.NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN,
-    SHOPIFY_STORE_DOMAIN: process.env.NEXT_PUBLIC_SHOPIFY_STOREFRONT_DOMAIN,
+    STOREFRONT_ACCESS_TOKEN: process.env.STOREFRONT_ACCESS_TOKEN,
+    PUBLIC_SHOPIFY_STORE_DOMAIN: process.env.PUBLIC_SHOPIFY_STOREFRONT_DOMAIN,
+  },
+  experimental: {
+    topLevelAwait: true,
   },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;

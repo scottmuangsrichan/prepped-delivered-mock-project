@@ -1,6 +1,7 @@
 import '/styles/global.css';
 import { SessionProvider } from 'next-auth/react';
 import { createClient, Provider } from 'urql';
+import ShopProvider from '../context/shopContext';
 
 function MyApp({ 
   Component, 
@@ -8,9 +9,11 @@ function MyApp({
 }) {
   return(
     <>
+    <ShopProvider>
       <SessionProvider session={session}>
         <Component {...pageProps} />
         </SessionProvider>
+    </ShopProvider>
     </>
   ) 
 }

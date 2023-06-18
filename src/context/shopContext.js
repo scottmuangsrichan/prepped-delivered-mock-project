@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from 'react'
-import { createCheckout, updateCheckout } from '../lib/shopify'
 
 const CartContext = createContext()
 

@@ -1,13 +1,6 @@
 import MenuItemCard from "../MenuItem";
 export default function Menu(){
-
-  function setMenuItems(menuItem){
-      menuItem = menuItem;
-      let allMenuItems = [];
-      allMenuItems.push(menuItem);
-      return allMenuItems;
-  }
-  
+    
   return(
       <div className="md:max-w-[1440px] mx-auto md:grid grid-cols-4 grid-rows-10">
           {<MenuItemCard 

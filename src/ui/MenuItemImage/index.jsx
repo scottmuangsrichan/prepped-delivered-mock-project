@@ -1,7 +1,7 @@
 import Image from "next/image";
+import { getProduct } from "../../libs/shopify";
 
-
-function MenuItemImage({alt = "", imageUrl = ""}){
+function MenuItemImage({alt = "", imageUrl = ""}){  
   return (
   <div className="w-[35%]">
     <Image
