@@ -50,7 +50,7 @@ export default function Navigation() {
 
   function NavigationLink({link, linkName}){
     return (
-      <Link  href={link}>
+      <Link  href={link} legacyBehavior>
         <a className="text-sm font-semibold hover:text-blue-500">{linkName}</a>
       </Link>
     )
